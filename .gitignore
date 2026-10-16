@@ -19,8 +19,8 @@ cert.pfx
 *jpg
 sciter.dll
 **pdb
-src/bridge_generated.rs
-src/bridge_generated.io.rs
+# src/bridge_generated.rs  # committed to skip CI generation
+# src/bridge_generated.io.rs  # committed to skip CI generation
 *deb
 rustdesk
 *.cache
@@ -42,8 +42,8 @@ flatpak/.flatpak-builder/debian-binary
 flatpak/build/**
 flatpak/repo/**
 flatpak/*.flatpak
-# bridge file
-lib/generated_bridge.dart
+# bridge file - committed to skip CI generation
+# lib/generated_bridge.dart
 # vscode devcontainer
 .gitconfig
 .vscode-server/
